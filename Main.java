@@ -6,8 +6,8 @@ multi-line comment
 
 import java.util.Scanner; // I'm gonna need this later
 
-class Main {
-  public static void main(String[] args) {
+class Main { // It's mandatory to declare at least a class
+  public static void main(String[] args) { // It's mandatory to declare at least a method
     System.out.println("How old are you?"); // How to print stuff in Java
     int age; // How to initialize an int variable in Java
     Scanner scan = new Scanner(System.in); // Instantiating an object from Scanner class
